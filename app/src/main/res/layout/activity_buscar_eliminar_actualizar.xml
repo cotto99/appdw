@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBDFDF"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.chacach.dbandroid.com.chacach.appdw.Buscar_Eliminar_Actualizar">
+
+    <EditText
+        android:id="@+id/Ebuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintbuscar" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/NNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintnnombre" />
+
+    <EditText
+        android:id="@+id/NApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintnapellido" />
+
+    <Button
+        android:id="@+id/Bbuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:text="@string/buscar"
+        android:textColor="#FAF8F8" />
+
+    <Button
+        android:id="@+id/BEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F80000"
+        android:text="@string/eliminar"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/BActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="@string/actualizar"
+        android:textColor="#FAF8F8" />
+
+    <Button
+        android:id="@+id/blista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B0B0B"
+        android:text="@string/lista"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

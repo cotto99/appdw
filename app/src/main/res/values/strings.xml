@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Registro de Clientes</string>
+
+    <string name="nombre">IngresarNombre</string>
+    <string name="apellido">IngresarApellido</string>
+    <string name="guardar">Registrar</string>
+    <string name="hintnapellido">Ingrese Nuevo Apellido</string>
+    <string name="hintnnombre">Ingrese Nuevo Nombre</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_main2">Buscar Clientes</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="hintbuscar">Buscar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="lista">Ver Todos</string>
+</resources>
